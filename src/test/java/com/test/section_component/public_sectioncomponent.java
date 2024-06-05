@@ -76,7 +76,7 @@ public class public_sectioncomponent {
 			WebDriverWait wait3 = new WebDriverWait(driver, 20);
 			switchToNewWindow();
 			        WebElement emailInput = wait3.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@type='email']")));
-			        emailInput.sendKeys("teamsoftware457@gmail.com");
+			        emailInput.sendKeys("softwaretestingteam9@gmail.com");
 			Thread.sleep(4000);
 			System.out.println("-------------------------------------------------");
 			System.out.println("Mail I'd has been entered sucessfully");
